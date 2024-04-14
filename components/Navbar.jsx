@@ -85,7 +85,7 @@ const Navbar = () => {
                         <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer' onClick={handleMenu}><GrClose size={20} /></div>
                     </div>
                     <div className='border-b border-gray-300 my-6'>
-                        <p>Let's build something something big together</p>
+                        <p>Let&apos;s build something something big together</p>
                     </div>
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase '>
@@ -106,7 +106,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className='pt-40'>
-                            <p className='uppercase tracking-widest text-red-500'>Let's connect</p>
+                            <p className='uppercase tracking-widest text-red-500'>Let&apos;s connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[75%] '>
                                 <RedirectItems redirectUrl='https://www.linkedin.com/in/gia-thinh-nguyen-557204300/' Icon={FaLinkedin} size={20} extraClass="p-3" target='_blank' />
                                 <RedirectItems redirectUrl='https://github.com/gia-thinh-nguyen' Icon={FaGithub} size={20} extraClass="p-3" target='_blank'/>

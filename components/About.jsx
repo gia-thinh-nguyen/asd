@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
                 
             </div>
             <div>
-                <img src="/assets/peanut.jpg" alt="no img" className='h-[90%] w-auto' />
+                <Image src="/assets/peanut.jpg" alt="no img" width={500} height={500} />
             </div>
         </div>
     </div>

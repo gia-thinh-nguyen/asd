@@ -6,7 +6,7 @@ import { BsFillPersonVcardFill } from "react-icons/bs";
 import Link from 'next/link';
 import { PiCaretDoubleUp } from "react-icons/pi";
 import RedirectItems from './RedirectItems';
-import { BiPhone } from 'react-icons/bi';
+import Image from 'next/image';
 
 //42d69e8d-b33f-4367-a466-277934a6c28b
 
@@ -41,16 +41,16 @@ const Contact = () => {
                 <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-600 rounded-xl p-4"> {/*left*/} 
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img src="/assets/mo.jpg" alt="contact" className='w-full h-full object-cover rounded-xl hover:scale-105 ease-in duration-300'/>
+                            <Image src="/assets/mo.jpg" alt="contact" width={500} height={500} className='w-full h-full object-cover rounded-xl hover:scale-105 ease-in duration-300'/>
                         </div>
                         <div>
                             <h2 className='py-3'>Tim Nguyen</h2>
                         </div>                     
                         <div className='py-5'>
-                            <p>I value open comunication and more than happy to be given any inquiries, feed back, or collaboration oppurtunities. Please don't hesitate to reachout by filling the contact form.</p>
+                            <p>I value open comunication and more than happy to be given any inquiries, feed back, or collaboration oppurtunities. Please don&apos;t hesitate to reachout by filling the contact form.</p>
                         </div>
                         <div>
-                            <p className='uppercase pt-8 text-xl text-red-500'>Let's connect</p>
+                            <p className='uppercase pt-8 text-xl text-red-500'>Let&apos;s connect</p>
                             <div className='flex justify-between item-center py-4'>
                             <RedirectItems redirectUrl='https://www.linkedin.com/in/gia-thinh-nguyen-557204300/' Icon={FaLinkedin} size={28} extraClass="p-3" target='_blank' />
                             <RedirectItems redirectUrl='https://github.com/gia-thinh-nguyen' Icon={FaGithub} size={28} extraClass="p-3" target='_blank'/>

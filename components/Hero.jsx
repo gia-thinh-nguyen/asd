@@ -3,16 +3,17 @@ import { BsFillPersonVcardFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 import RedirectItems from './RedirectItems'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
     <div id='hero' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>Let's build something together</p>
-                <div className='py-4 pt-2 flex flex-row justify-center items-center gap-2'>
-                  <h1 className=' flex mt-[20px]'>Hi, I'm </h1>
-                  <img src="/assets/logo.png" alt="/" className='flex'/>
+                <p className='uppercase text-sm tracking-widest text-gray-600'>Let&apos;s build something together</p>
+                <div className='py-4 pt-2 flex flex-row justify-center items-center gap-3'>
+                  <h1 className=' flex mt-[20px]'>Hi, I&apos;m </h1>          
+                  <Image src="/assets/logo.png" alt="/" width={95} height={50} className='flex md:w-[145px] '/>
                 </div>
                 <h1 className='py-2'>A Full-stack Developer</h1>
                 <p className='text-sm tracking-widest text-gray-600 py-5'>I have been passionate about coding and always thriving to deliver the best prducts</p>
